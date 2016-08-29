@@ -1,0 +1,350 @@
+/* 
+The color scheme for this page is: 
+Dark Grey: #343434;
+Lighter Grey: #f7f7f2;;
+*/
+
+html {
+	height: 100%;
+}
+
+body{
+	font-family: "Source Sans Pro";
+	font-size: 2rem;
+	opacity:1;
+	background-image: url('../image/search_wallpaper.jpg');
+	height: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+#logo {
+	height: 100%;
+	width: 100%;
+}
+
+#instructions {
+	text-align: center;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+
+.warning {
+	color: red;
+}
+
+h3, h1 {
+	color: #82caff;
+}
+
+p {
+	color: #a0a0a0;
+}
+
+#main-container {
+	background-color: #191919;
+	width: 96%;
+	min-height: 100%;
+}
+
+
+/* INDEX PAGE
+<============================================== */
+
+.main {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.form-group {
+	width: 100%;
+}
+
+.user-input {
+	top: 150px;
+
+}
+
+/* search bar
+<============================================== */
+
+.search_bar {
+	width: 100%;
+	height: 30px;
+}
+
+.search_box {
+	width: 1500px;
+}
+
+.search_group {
+	width: 200%;
+}
+
+/* nav-bar
+<============================================== */
+.nav-bar {
+	list-style: none;
+	text-align: left;
+	background-color: #000000;
+	opacity: 0.7;
+	width: 96%;
+	color: #f7f7f2;
+	height: 50px;
+	margin-bottom: 0px;
+	margin-left: 2%;
+}
+
+.nav-bar > li {
+	display: inline-block;
+	font-size: 15px;
+	font-family: "Source Sans Pro";
+	color: #f7f7f2;
+	margin-top: 5px;
+}
+
+.nav-bar >li > a {
+	display: block;
+	text-decoration: none;
+	padding: 5px 40px 5px 40px;
+	color: white;
+}
+
+.nav-bar > li > a:hover {
+	color: #f0e68c;
+}
+
+/* filter
+<======================== */
+.sticky {
+	position: fixed;
+	width: 277px;
+	top: 90px;
+}
+
+.selection {
+	height: 50px;
+}
+
+/* table-buttons
+<======================== */
+.table_buttons {
+	width: 43px;
+	height: 43px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 5px 5px 5px 5px;
+	border-radius: 5px;
+	font-size: 11px;
+}
+
+.table_buttons:hover{
+	cursor: pointer;
+}
+
+.strong {
+	background-color: #99c68e;
+	box-shadow: 2px 2px 1px black;
+	color: black;
+}
+
+.weak {
+	background-color: #e77471;
+	box-shadow: 2px 2px 1px black;
+	color: black;
+}
+
+.neither {
+	background-color: #e8e8e8;
+	box-shadow: 2px 2px 1px black;
+	color: black;
+}
+
+/* USER STATS PAGE
+<============================================== */
+
+#search_region {
+	width: 20%;
+	border-radius: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+    background-position: right 50%;
+    background-repeat: no-repeat;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NDZFNDEwNjlGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NDZFNDEwNkFGNzFEMTFFMkJEQ0VDRTM1N0RCMzMyMkIiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0NkU0MTA2N0Y3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo0NkU0MTA2OEY3MUQxMUUyQkRDRUNFMzU3REIzMzIyQiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PuGsgwQAAAA5SURBVHjaYvz//z8DOYCJgUxAf42MQIzTk0D/M+KzkRGPoQSdykiKJrBGpOhgJFYTWNEIiEeAAAMAzNENEOH+do8AAAAASUVORK5CYII=);
+    padding: .5em;
+    padding-right: 1.5em
+}
+
+#search_summoner {
+	width: 80%;
+}
+
+#main-content {
+	margin: 0px -24px 0px -24px;
+	top: 10px;
+	height: 100%;
+	position: relative;
+}
+
+#process-data, #content {
+	position: relative;
+	top: 75px;
+	left: 10%;
+}
+
+#process-data {
+	width: 80%;
+}
+
+/* USER STATS CONSTRUCTED PAGE
+background color: #e5e4e2
+<============================================== */
+
+/* username box
+<====================== */
+
+#userrow {
+	margin: -10px -20px 0px -20px;
+}
+
+#summicon {
+	margin-left: 0px;
+	margin-top: 5px;
+	border-radius: 3px;
+	border: 1px black solid;
+}
+
+#userbox {
+	height: 87px;
+	border: 1px #646d71 solid;
+/*	border-radius: 3px;*/
+	background-image: url('../image/footer_lodyas.png');
+	margin: 0px 0px 0px 0px;
+}
+
+#username {
+	margin-left: 0px;
+	margin-top: 5px;
+	font-weight: bold;
+	font-size: 125%;
+	text-align: left;
+}
+
+.small-stats {
+	font-size: 13px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	line-height: 0px;
+	text-align: left;
+	color: #a0a0a0;
+}
+
+.table-info:hover {
+	cursor: pointer;
+}
+
+/* table div
+<====================== */
+
+#calc_stats {
+	background-image: url('../image/footer_lodyas.png');
+	border: 1px #646d71 solid;
+	/*border-radius: 4px;*/
+}
+
+.stats-div {
+/*	border: 1px #87afc7 solid;*/
+	background-image: url('../image/footer_lodyas.png');
+/*	border-top: none;
+	border-bottom: none;*/
+}
+
+.stats-font {
+	font-size: 70%;
+	color: #a0a0a0;
+}
+
+.table-headers {
+	font-size: 14px;
+}
+
+.separator {
+	height: 10px;
+}
+
+.table-condensed th {
+	font-size: 80%;
+	color: #a0a0a0;
+	border-top: none !important;
+	text-align: center;
+}
+
+.table-condensed td {
+	border-top: none !important;
+}
+
+#pre-20 {
+	margin-top: 180%;
+}
+
+#post-20 {
+	margin-top: 65%;
+}
+
+/* comparison operators
+<====================== */
+
+#comparator {
+	margin-top: 85%;
+	line-height: 0px;
+	margin-bottom: 0px;
+}
+
+#comparator:hover {
+	cursor: pointer;
+}
+
+.ui-tooltip-content {
+    font-size:10pt;
+    font-family: Calibri;
+}
+.tip_bar{
+	position:relative;
+	right: 0px;
+	background-image: url('../image/footer_lodyas.png');
+	border: 1px #646d71 solid;
+	 
+	font-size: 80%;
+	color: #a0a0a0;
+}
+
+/* data info thingy
+<====================== */
+
+#data-count {
+	width: 100%;
+	height: 195px;
+	background-color: #e0e0e0;
+	margin: 0 auto;
+}
+
+#data-img {
+	height: 195px;
+	width: auto;
+	margin-left: -5%;
+	margin-top: -2%;
+}
+
+#data-txt {
+	color: black;
+	font-size: 14px;
+	text-align: left;
+	margin-top: 8%;
+}
+

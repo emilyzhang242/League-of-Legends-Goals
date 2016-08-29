@@ -1,0 +1,26 @@
+a, p, h3, label, td {
+	font-family: "Source Sans Pro";
+	color: #a0a0a0;
+}
+
+table, td {
+	background-image: url('../image/footer_lodyas.png');
+	color: #a0a0a0;
+}
+
+#main {
+	margin: 0 auto;
+	width: 96%;
+	min-height: 100%;
+	position: relative;
+	background-image: url('../image/footer_lodyas.png');
+}
+
+.search {
+	margin-top: 10%;
+	margin-left: 3%;
+}
+
+#champ-table {
+	margin-left: 0%;
+}
